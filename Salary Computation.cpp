@@ -18,7 +18,6 @@ int main() {
     cout << "Enter Other Allowances: ";
     cin >> allowances;
 
-    // Total salary calculation
     total = basic + hra + da + allowances;
 
     cout << fixed << setprecision(2);
@@ -32,3 +31,4 @@ int main() {
 
     return 0;
 }
+
